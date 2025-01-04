@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon/favicon.ico">
+    <title>joure</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/fullpage.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/ab.js"></script>
+</head>
+<body>
+    <div class="modal">
+        <div class="text">
+            <p class="p_S">SUMMER EVENT</p>
+            <p class="p_s">jouer를 찾아주신 분들께 감사합니다. <br>
+            여름맞이 EVENT로 모든 항목 <span>10%할인</span>이 들어갑니다.
+            </p>
+            <button class="button"><a href="#">close</a></button>
+        </div><!-- text -->
+    </div> <!-- popup -->
+    <div class="modal_bg"></div>
+    <script>
+        let modal = document.querySelector('.modal');
+        const modalbtn = document.querySelector('.button');
+        const modalBg = document.querySelector('.modal_bg');
+        const body = document.querySelector('body');
+        const full = document.querySelector('#fullpage');
+
+        
+
+    </script>
+    <header>
+        <h1 class="logo"><a href="index.html"><i>로고</i></a></h1>
+        <div class="h_1">
+            <ul class="lang">
+                <li><a href="#">KR</a></li>
+                <li><a href="#" onclick="alert('사이트 준비중입니다.')">EN</a></li>
+                <li><a href="#" onclick="alert('사이트 준비중입니다.')">CN</a></li>
+            </ul> <!-- lang -->
+            <div class="link">
+                <p class="link_img"><a href="#"  onclick="alert('사이트 준비중입니다.')">링크</a></p>
+                <p class="link_name"><a href="#"  onclick="alert('사이트 준비중입니다.')">alone</a></p>
+            </div>
+        </div><!-- h_1 -->
+
+        <div class="search_d"></div>
+
+
+        <div class="search">
+                    <input type="text" placeholder="검색어를 입력하세요.">
+                    <button class="search_btn"><a href="#">검색</a></button>
+        </div>
+        <div class="h_2">
+            <p class="sear">
+                <a href="#">검색</a>
+            </p>
+            <p class="my"><a href="#">마이페이지</a></p>
+            <p class="cate">
+                    <a href="#">category</a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Girl</a>
+                            <ul class="menu_list">
+                                <li><a href="#">18개월-6세</a></li>
+                                <li><a href="#">6세-14세</a></li>
+                                <li><a href="#">악세사리</a></li>
+                            </ul> <!-- menu_list -->
+                        </li>
+                        <li>
+                            <a href="#">Boy</a>
+                            <ul class="menu_list">
+                                <li><a href="#">18개월-6세</a></li>
+                                <li><a href="#">6세-14세</a></li>
+                                <li><a href="#">악세사리</a></li>
+                            </ul> <!-- menu_list -->
+                        </li>
+                        <li>
+                            <a href="#">Baby</a>
+                            <ul class="menu_list">
+                                <li><a href="#">0개월-6개월</a></li>
+                                <li><a href="#">6개월-12개월</a></li>
+                                <li><a href="#">12개월-18개월</a></li>
+                            </ul> <!-- menu_list -->
+                        </li>
+                    </ul><!-- menu -->
+            </p>
+        </div><!--  h_2 -->
+    </header>
+    <div id="fullpage">
+        <div class="section" id="section01">
+            <!-- <video src="./images/2129051_Young_Girl_1280x720.mp4" muted autoplay loop></video> -->
+            <h2>18 months - 6 years(girl)</h2>
+            <div class="slide">
+                <ul class="sd_sub slide_a" style="overflow: hidden;">
+                    <li><span>NEW</span><a href="#" class="sd_sub1_1">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_2">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_3">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_4">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub1_5">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub1_6">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub1_7">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub1_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+            <div class="slide" id="s_slide">
+                <!-- <h2>18 months - 6 years(girl)</h2> -->
+                <ul class="sd_sub slide_b">
+                    <li><span>NEW</span><a href="#" class="sd_sub1_5">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_6">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_7">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub1_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+        </div> <!-- section01 -->
+        <div class="section" id="section02">
+            <h2 class="title1">18 months - 6 years(boy)</h2>
+            <div class="slide">
+                <ul class="sd_sub slide_a" style="overflow: hidden;">
+                    <li><span>NEW</span><a href="#" class="sd_sub2_1">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_2">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_3">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_4">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub2_5">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub2_6">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub2_7">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub2_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+            <div class="slide" id="s_slide1">
+                <ul class="sd_sub slide_b">
+                    <li><span>NEW</span><a href="#" class="sd_sub2_5">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_6">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_7">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub2_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+        </div>
+        <div class="section" id="section03">
+            <h2>6 years - 14 years(girl)</h2>
+            <div class="slide">
+                <ul class="sd_sub slide_a" style="overflow: hidden;">
+                    <li><span>NEW</span><a href="#" class="sd_sub3_1">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_2">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_3">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_4">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub3_5">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub3_6">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub3_7">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub3_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+            <div class="slide" id="s_slide2">
+                <ul class="sd_sub slide_b">
+                    <li><span>NEW</span><a href="#" class="sd_sub3_5">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_6">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_7">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub3_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+        </div>
+        <div class="section" id="section04">
+            <h2>6 years - 14 years(boy)</h2>
+            <div class="slide">
+                <ul class="sd_sub slide_a" style="overflow: hidden;">
+                    <li><span>NEW</span><a href="#" class="sd_sub4_1">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_2">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_3">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_4">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub4_5">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub4_6">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub4_7">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub4_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+            <div class="slide" id="s_slide3">
+                <ul class="sd_sub slide_b">
+                    <li><span>NEW</span><a href="#" class="sd_sub4_5">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_6">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_7">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub4_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+        </div>
+        <div class="section" id="section05">
+            <h2>BABY</h2>
+            <div class="slide">
+                <ul class="sd_sub slide_a" style="overflow: hidden;">
+                    <li><span>NEW</span><a href="#" class="sd_sub5_1">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_2">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_3">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_4">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub5_5">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub5_6">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub5_7">이미지1</a></li>
+                    <li class="ithide"><span>NEW</span><a href="#" class="sd_sub5_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+            <div class="slide" id="s_slide4">
+                <ul class="sd_sub slide_b">
+                    <li><span>NEW</span><a href="#" class="sd_sub5_5">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_6">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_7">이미지1</a></li>
+                    <li><span>NEW</span><a href="#" class="sd_sub5_8">이미지1</a></li>
+                </ul>
+            </div> <!-- slide -->
+        </div>
+        <div class="section" id="section06">
+            <h3>뉴스레터에 가입하세요.</h3>
+            <ul class="news">
+                <li><a href="#">TIKTOK</a></li>
+                <li><a href="#">INSTARGRAM</a></li>
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">PINTEREST</a></li>
+                <li><a href="#">KAKAO</a></li>
+                <li><a href="#">YOUTUBE</a></li>
+            </ul>
+        </div>
+    </div> <!-- fullpage -->
+</body>
+</html>
