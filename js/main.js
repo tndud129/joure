@@ -30,4 +30,52 @@ $(function(){
         // }
     }) //
 
+    let fullpageInstance;
+    let slickInstance;
+
+    function initializePlugins() {
+        if (window.innerWidth > 768) { // PC 버전
+            // Fullpage 초기화
+            fullpageInstance = new fullpage('#fullpage', {
+                // 풀페이지 옵션
+                autoScrolling: true,
+                scrollHorizontally: true
+                // 기타 옵션들...
+            });
+
+            // Slick 초기화
+            slickInstance = $('.your-slider').slick({
+                // 슬릭 옵션
+                dots: true,
+                arrows: true
+                // 기타 옵션들...
+            });
+        } else { // 태블릿/모바일 버전
+            // 이미 초기화되어 있다면 제거
+            if (fullpageInstance) {
+                fullpage_api.destroy('all');
+                fullpageInstance = null;
+            }
+            
+            if ($('.your-slider').hasClass('slick-initialized')) {
+                $('.your-slider').slick('unslick');
+                slickInstance = null;
+            }
+        }
+    }
+
+    // 페이지 로드 시 실행
+    $(document).ready(function() {
+        initializePlugins();
+    });
+
+    // 리사이즈 시 실행 (디바운스 처리 추가)
+    let resizeTimer;
+    $(window).on('resize', function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(function() {
+            initializePlugins();
+        }, 250);
+    });
+
 }) //jquery

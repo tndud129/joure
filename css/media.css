@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media (max-width:768px) {
+    /* Fullpage.js 관련 */
+    #fullpage, 
+    .fp-section, 
+    .fp-slide, 
+    .fp-slidesContainer {
+        display: block !important;
+        position: static !important;
+        height: auto !important;
+        width: 100% !important;
+        transform: none !important;
+    }
+    
+    .fp-tableCell {
+        display: block !important;
+        height: auto !important;
+        padding: 0 !important;
+        transform: none !important;
+    }
+    
+    /* Slick 관련 */
+    .slick-slider,
+    .slick-list,
+    .slick-track {
+        display: block !important;
+        width: 100% !important;
+        transform: none !important;
+    }
+    
+    .slick-slide {
+        display: block !important;
+        width: 100% !important;
+        margin: 0 !important;
+        float: none !important;
+    }
+}
