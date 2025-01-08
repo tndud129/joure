@@ -13,7 +13,11 @@ $(".search_btn a").click(function(){
     $(".search, .search_d").hide();
 })//
 
-
+$(".button , .modal_bg").click(function(){
+    $(".modal , .modal_bg").hide();
+    fullpage_api.setKeyboardScrolling(true);
+    fullpage_api.setAutoScrolling(true);
+})
 
 
 $(".ithide").hide();

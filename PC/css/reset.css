@@ -1,4 +1,5 @@
 @charset "UTF-8";
+html,body{font-family: "Noto Sans KR", serif; overflow: hidden !important; height: 100%;}
 *{margin: 0;padding: 0;box-sizing: border-box;}
 a{text-decoration: none; color: inherit;}
 ul, li{list-style: none;}
@@ -13,26 +14,9 @@ input::-moz-input-placeholder{
     color: #666;
 }
 
-body{font-family: "Noto Sans KR", serif;}
 
 @font-face {
     font-family: "Noto Sans KR", serif;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
-    font-weight: 400;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'LeferiPoint-WhiteObliqueA';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-WhiteObliqueA.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'GowunBatang-Regular';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-

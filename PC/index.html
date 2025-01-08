@@ -21,7 +21,7 @@
         <div class="text">
             <p class="p_S">SUMMER EVENT</p>
             <p class="p_s">jouer를 찾아주신 분들께 감사합니다. <br>
-            여름맞이 EVENT로 모든 항목 <span>10%할인</span>이 들어갑니다.
+            여름맞이 EVENT로 모든 항목 <span>10%할인</span>
             </p>
             <button class="button"><a href="#">close</a></button>
         </div><!-- text -->
@@ -34,7 +34,29 @@
         const body = document.querySelector('body');
         const full = document.querySelector('#fullpage');
 
+        modalBg.addEventListener('wheel' , (e) => {
+            e.preventDefault();
+        });
+
+        modal.addEventListener('wheel' , (e) => {
+            e.preventDefault();
+        });
         
+        modalBg.addEventListener('touchmove' , (e) => {
+            e.preventDefault();
+        });
+
+        modal.addEventListener('touchmove' , (e) => {
+            e.preventDefault();
+        });
+
+        modalBg.addEventListener('mousewheel' , (e) => {
+            e.preventDefault();
+        });
+
+        modal.addEventListener('mousewheel' , (e) => {
+            e.preventDefault();
+        });
 
     </script>
     <header>
@@ -96,7 +118,8 @@
     </header>
     <div id="fullpage">
         <div class="section" id="section01">
-            <!-- <video src="./images/2129051_Young_Girl_1280x720.mp4" muted autoplay loop></video> -->
+            <i class="fullbg1"></i>
+            <i class="fullbg2"></i>
             <h2>18 months - 6 years(girl)</h2>
             <div class="slide">
                 <ul class="sd_sub slide_a" style="overflow: hidden;">
@@ -121,6 +144,8 @@
             </div> <!-- slide -->
         </div> <!-- section01 -->
         <div class="section" id="section02">
+            <i class="fullbg3"></i>
+            <i class="fullbg5"></i>
             <h2 class="title1">18 months - 6 years(boy)</h2>
             <div class="slide">
                 <ul class="sd_sub slide_a" style="overflow: hidden;">
@@ -144,6 +169,7 @@
             </div> <!-- slide -->
         </div>
         <div class="section" id="section03">
+            <i class="fullbg4"></i>
             <h2>6 years - 14 years(girl)</h2>
             <div class="slide">
                 <ul class="sd_sub slide_a" style="overflow: hidden;">
@@ -167,6 +193,8 @@
             </div> <!-- slide -->
         </div>
         <div class="section" id="section04">
+            <i class="fullbg6"></i>
+            <i class="fullbg7"></i>
             <h2>6 years - 14 years(boy)</h2>
             <div class="slide">
                 <ul class="sd_sub slide_a" style="overflow: hidden;">
@@ -190,6 +218,8 @@
             </div> <!-- slide -->
         </div>
         <div class="section" id="section05">
+            <i class="fullbg8"></i>
+            <i class="fullbg9"></i>
             <h2>BABY</h2>
             <div class="slide">
                 <ul class="sd_sub slide_a" style="overflow: hidden;">

@@ -1,14 +1,14 @@
 $(function(){
 
     const Full =  new fullpage('#fullpage', {
-        navigation:true,
+        navigation:false,
         navigationPosition:"left",
         // navigationTooltips:["page1" , "page2" , "page3" , "page4" , "page5"],
         ScrollingSpeed:5000,
         slidesNavigation:true,
         scrollBar:false,
-        KeyboardScrolling:true,
-        autoScrolling:true,
+        keyboardScrolling:false,
+        autoScrolling:false,
 
         // beforeLeave: function(index){
         //     console.log(index.index)
@@ -29,10 +29,5 @@ $(function(){
         //     }
         // }
     }) //
-    
-    $(".button , .modal_bg").click(function(){
-        $(".modal , .modal_bg").hide();
-        Full.KeyboardScrolling = false;
-        Full.autoScrolling = false;
-    })
+
 }) //jquery

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .body{overflow-x: hidden; position: relative;}
 
 .modal{
@@ -10,8 +9,8 @@
     height: 15em;
     padding: 5px;
     transform: translate(-50%);
-    /* border: 1px red solid; */
     z-index: 30;
+    /* overflow: hidden !important; */
 }
 
 .text{
@@ -263,8 +262,60 @@ header{
 }
 
 
-
-
+.fullbg1{
+    background: url(../images/paperair.svg) no-repeat;
+    position: absolute; right: 100px; top: 100px;
+    display: block; width: 150px; height: 150px;
+    z-index: 10;
+}
+.fullbg2{
+    background: url(../images/tree.svg) no-repeat center;
+    position: absolute; left: 0; bottom: 0;
+    width: 300px; height: 200px;
+    display: block; z-index: 10;
+}
+.fullbg3{
+    background: url(../images/waterfull.svg) no-repeat center;
+    position: absolute; left: 0; bottom: 0;
+    width: 250px; height: 200px;
+    display: block; z-index: 10;
+}
+.fullbg4{
+    background: url(../images/flower.svg) no-repeat center;
+    position: absolute; right: 30px; top: 100px;
+    width: 200px; height: 200px;
+    display: block; z-index: 10;
+}
+.fullbg5{
+    background: url(../images/duck.svg) no-repeat center;
+    position: absolute; right: 80px; bottom: 100px;
+    width: 150px; height: 150px;
+    display: block; z-index: 10;
+}
+.fullbg6{
+    background: url(../images/rocket.svg) no-repeat center;
+    position: absolute; left: 80px; bottom: 0;
+    width: 300px; height: 300px;
+    display: block; z-index: 10;
+}
+.fullbg7{
+    background: url(../images/star.svg) no-repeat center;
+    position: absolute; right: 100px; top: 150px;
+    width: 100px; height: 100px;
+    display: block; z-index: 10;
+}
+.fullbg8{
+    background: url(../images/bike.svg) no-repeat center;
+    position: absolute; left: 50px; bottom: 30px;
+    width: 250px; height: 250px;
+    display: block; z-index: 10;
+}
+.fullbg9{
+    background: url(../images/store.svg) no-repeat center;
+    position: absolute; left: 80%; bottom: 0;
+    width: 200px; height: 200px;
+    display: block; z-index: 10;
+}
 .section{background-size: cover;}
 #section01{position: relative; width: 100%; height: 100%;
     background-color: #F5F5F5;
@@ -332,28 +383,28 @@ header{
 }
 
 .sd_sub1_1{
-    background-image: url("../images/리본\ 프린트\ 원피스\ -\ Zara\ 노랑.jpg");
+    background-image: url("../images/sd_sub1_1.jpg");
 }
 .sd_sub1_2{
-    background-image: url("../images/리본\ 프린트\ 원피스\ -\ Zara\ 하늘색.jpg");
+    background-image: url("../images/sd_sub1_2.jpg");
 }
 .sd_sub1_3{
-    background-image: url("../images/미니\ 리본\ 바디수트\ 5장\ 세트\ -\ Zara\ 로즈핑크.jpg");
+    background-image: url("../images/sd_sub1_3.jpg");
 }
 .sd_sub1_4{
-    background-image: url("../images/슬릿\ 리본\ 팬츠\ -\ Zara\ 로즈핑크.jpg");
+    background-image: url("../images/sd_sub1_4.jpg");
 }
 .sd_sub1_5{
-    background-image: url("../images/MINNIE\ ©\ DISNEY\ T-SHIRT\ AND\ SHORT\ LEGGINGS\ CO-ORD_y.jpg");
+    background-image: url("../images/sd_sub1_5.jpg");
 }
 .sd_sub1_6{
-    background-image: url("../images/크로셰\ 탑\ -\ Zara\ 라일락.jpg");
+    background-image: url("../images/sd_sub1_6.jpg");
 }
 .sd_sub1_7{
-    background-image: url("../images/멀티컬러\ 스트라이프\ 버뮤다\ 팬츠\ -\ Zara\ 멀티컬러.jpg");
+    background-image: url("../images/sd_sub1_7.jpg");
 }
 .sd_sub1_8{
-    background-image: url("../images/도트\ 파이핑\ 셔츠\ -\ Zara\ 크림.jpg");
+    background-image: url("../images/sd_sub1_8.jpg");
 }
 
 
@@ -426,28 +477,28 @@ header{
 }
 
 .sd_sub2_1{
-    background-image: url("../images/포켓\ 티셔츠\ &\ 버뮤다\ 팬츠\ 세트\ -\ Zara\ 초록.jpg");
+    background-image: url("../images/sd_sub2_1.jpg");
 }
 .sd_sub2_2{
-    background-image: url("../images/WATER-REPELLENT\ QUILTED\ JACKET\ -\ Zara\ 콜\ 그레이.jpg");
+    background-image: url("../images/sd_sub2_2.jpg");
 }
 .sd_sub2_3{
-    background-image: url("../images/TIMELESZ\ -\ 타월\ 점프수트\ -\ Zara\ 미디움\ 블루.jpg");
+    background-image: url("../images/sd_sub2_3.jpg");
 }
 .sd_sub2_4{
-    background-image: url("../images//자수\ 텍스트\ 봄버\ 재킷\ -\ Zara\ 블루.jpg");
+    background-image: url("../images/sd_sub2_4.jpg");
 }
 .sd_sub2_5{
-    background-image: url("../images/콘트라스트\ 스트라이프\ 티셔츠\ -\ Zara\ 크림\ \ \ 블루.jpg");
+    background-image: url("../images/sd_sub2_5.jpg");
 }
 .sd_sub2_6{
-    background-image: url("../images/포켓\ 셔츠\ -\ Zara\ 크림.jpg");
+    background-image: url("../images/sd_sub2_6.jpg");
 }
 .sd_sub2_7{
-    background-image: url("../images/포켓\ 버뮤다\ 팬츠\ -\ Zara\ 블루\ 그레이.jpg");
+    background-image: url("../images/sd_sub2_7.jpg");
 }
 .sd_sub2_8{
-    background-image: url("../images/플라워\ 셔츠\ -\ Zara\ 화이트.jpg");
+    background-image: url("../images/sd_sub2_8.jpg");
 }
 
 #section03{position: relative; background-color: #F5F5F5;}
@@ -463,27 +514,27 @@ header{
 }
 
 .sd_sub3_1{
-    background-image: url("../images/6_14_girl/05767703712-e1.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_1.jpg");
 }
 .sd_sub3_2{
-    background-image: url("../images/6_14_girl/06142295406-e1.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_2.jpg");
 }
 .sd_sub3_3{
-    background-image: url("../images/6_14_girl/07521706250-e1.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_3.jpg");
 }
 .sd_sub3_4{
-    background-image: url("../images/6_14_girl/COLOUR\ BLOCK\ BERMUDA\ SHORTS\ WITH\ SLOGAN\ -\ Zara_yyth.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_4.jpg");
 }
 .sd_sub3_5{
-    background-image: url("../images/6_14_girl/NUEVA\ YORK\ 애플\ 티셔츠\ -\ Zara\ 화이트.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_5.jpg");
 }
 .sd_sub3_6{
-    background-image: url("../images/6_14_girl/TECHNICAL\ TROUSERS\ WITH\ TIES\ -\ Zara\ 그레이.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_6.jpg");
 }
 .sd_sub3_7{
-    background-image: url("../images/6_14_girl/THE\ BEATLES\ ®\ 티셔츠\ -\ Zara\ 그레이.jpg");
+    background-image: url("../images/6_14_girl/sd_sub3_7.jpg");
 }
-.sd_sub3_8{background-image: url("../images/6_14_girl/VARSITY\ 티셔츠\ -\ Zara\ 화이트.jpg");}
+.sd_sub3_8{background-image: url("../images/6_14_girl/sd_sub3_8.jpg");}
 
 
 #section04{position: relative;  background-color: #F5F5F5;}
@@ -499,27 +550,27 @@ header{
 }
 
 .sd_sub4_1{
-    background-image: url("../images/6_14_boy/03854760807-e1.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_1.jpg");
 }
 .sd_sub4_2{
-    background-image: url("../images/6_14_boy/05431796401-e1.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_2.jpg");
 }
 .sd_sub4_3{
-    background-image: url("../images/6_14_boy/05431797620-e1.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_3.jpg");
 }
 .sd_sub4_4{
-    background-image: url("../images/6_14_boy/리넨\ 블렌드\ 코튼\ 셔츠\ -\ Zara\ 화이트.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_4.jpg");
 }
 .sd_sub4_5{
-    background-image: url("../images/6_14_boy/인터로크\ 폴로셔츠\ &\ 버뮤다\ 팬츠\ 세트\ -\ Zara\ 아이보리-화이트.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_5.jpg");
 }
 .sd_sub4_6{
-    background-image: url("../images/6_14_boy/자수\ 스트라이프\ 스웨트셔츠\ -\ Zara\ 네이비\ \ \ 화이트.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_6.jpg");
 }
 .sd_sub4_7{
-    background-image: url("../images/6_14_boy/콘트라스트\ 파이핑\ 버뮤다\ 팬츠\ -\ Zara\ 레드.jpg");
+    background-image: url("../images/6_14_boy/sd_sub4_7.jpg");
 }
-.sd_sub4_8{background-image: url("../images/6_14_boy/포켓\ 디테일\ 하이테크\ 팬츠\ -\ Zara\ 콜\ 그레이.jpg");}
+.sd_sub4_8{background-image: url("../images/6_14_boy/sd_sub4_8.jpg");}
 
 #section05{background-color: #F5F5F5; position: relative;}
 #section05>h2{
@@ -532,61 +583,53 @@ header{
     text-align: center;
 }
 .sd_sub5_1{
-    background-image: url("../images/baby/BODYSUIT\ AND\ CARDIGAN\ PACK\ WITH\ DUCKS\ -\ Zara_yythkg.jpg");
+    background-image: url("../images/baby/sd_sub5_1.jpg");
 }
 .sd_sub5_2{
-    background-image: url("../images/baby/COTTON\ AND\ SILK\ KNIT\ BODYSUIT\ -\ Zara\ 라이트\ 베이지.jpg");
+    background-image: url("../images/baby/sd_sub5_2.jpg");
 }
 .sd_sub5_3{
-    background-image: url("../images/baby/레더\ 컷아웃\ 슈즈\ -\ Zara\ 브라운.jpg");
+    background-image: url("../images/baby/sd_sub5_3.jpg");
 }
 .sd_sub5_4{
-    background-image: url("../images/baby/플레인\ 크레이프\ 보닛\ -\ Zara\ 워터\ 그린.jpg");
+    background-image: url("../images/baby/sd_sub5_4.jpg");
 }
 .sd_sub5_5{
-    background-image: url("../images/baby/플레인\ 크레이프\ 크로스\ 점프수트\ -\ Zara\ 워터\ 그린\ \(1\).jpg");
+    background-image: url("../images/baby/sd_sub5_5.jpg");
 }
 .sd_sub5_6{
-    background-image: url("../images/baby/미니\ 플라워\ 크레이프\ 보닛\ -\ Zara\ 크림.jpg");
+    background-image: url("../images/baby/sd_sub5_6.jpg");
 }
 .sd_sub5_7{
-    background-image: url("../images/baby/미니\ 플라워\ 크레이프\ 크로스\ 점프수트\ -\ Zara\ 크림.jpg");
+    background-image: url("../images/baby/sd_sub5_7.jpg");
 }
-.sd_sub5_8{background-image: url("../images/baby/플레인\ 일체형\ 파자마\ -\ Zara\ 다크\ 핑크로즈.jpg");}
+.sd_sub5_8{background-image: url("../images/baby/sd_sub5_8.jpg");}
 
 #section06{
     background:url('../images/beautiful-flowers-field.jpg') no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 #section06 h3{
-    position: absolute;
-    left: 45%;
-    top: 37%;
-    transform: translate(-45%,-37%);
     text-align: center;
-    font-size: 1.7em;
-    color: white;
-    font-weight: 500;
-    font-family: "Noto Sans KR", serif;
+    font-size: 1.7em; color: white;
+    font-weight: 500; font-family: "Noto Sans KR", serif;
 }
-
-.news{
-    position: absolute;
-    left: 45%;
-    top: 45%;
-    transform: translate(-45%,-45%);
-    color: white;
-    font-family: "Noto Sans KR", serif;
-    font-size: 1em;
-    display: flex;
+#section06 .news{
+    color: white; font-family: "Noto Sans KR", serif;
+    font-size: 1em; display: flex;
     justify-content: space-around;
-    width: 700px;
-    /* border: 1px red solid; */
+    width: 50%;
     align-items: center;
+    margin: 50px auto 0;
 }
 
-.news li{}
+.news li{width: calc(100% / 6);}
 .news li a{
     display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.news li a:hover{
+    color: #000;
 }
